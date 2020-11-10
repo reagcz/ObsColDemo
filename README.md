@@ -7,8 +7,14 @@
 - Díky tomu se změny v seznamu projeví v uživatelském prostředí **okamžitě**, **rychle** a **levně**
 ### Použití
 - V modelu je potřeba implementovat interface [INotifyPropertyChanged](https://docs.microsoft.com/en-us/dotnet/api/system.componentmodel.inotifypropertychanged?view=netcore-3.1). viz [Number.cs](https://github.com/reagcz/ObsColDemo/blob/master/Obs.UWP/Models/Number.cs)
+
+![](Gifs/npc.png)
+
 - Ve ViewModelu vytvořím ObservableCollection, viz [MainViewModel.cs](https://github.com/reagcz/ObsColDemo/blob/master/Obs.UWP/ViewModels/MainViewModel.cs)
 - V code behind části View nastavím DataContext na svůj ViewModel. [MainPage.xaml.cs](https://github.com/reagcz/ObsColDemo/blob/master/Obs.UWP/Views/MainPage.xaml.cs)
+
+![](Gifs/context.png)
+
 - Ve View můžu seznamy používat pomocí {x:Bind ViewModel...}
 - **Přesný postup se liší podle frameworku (V tomhle repu je WPF i UWP)**, ale princip je stejný
 
