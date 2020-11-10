@@ -13,17 +13,21 @@
 - **Přesný postup se liší podle frameworku (V tomhle repu je WPF i UWP)**, ale princip je stejný
 
 ### Užitečnost
-- <span style="color:red">**Všechny akce se seznamem mohou být Read-Write**</span>
+- <span style="color:red">**Všechno akce se seznamem mohou být Read-Write**</span>
 - **Pro demonstraci je vpravo dole průběžný výstup do konzole namapovaný na vstupní seznamy**
 #### Okamžité změny
 - Všechno se po změně samo aktualizuje
+<br>
 ![](Gifs/changes.gif)
 #### Jednoduché řazení
 - Jednoduše můžeme měnit pořadí položek, opět read-write
+<br>
 ![](Gifs/reorder.gif)
 #### Drag & Drop
 - Protože se všechno aktualizuje samo, nemusím nic řešit když chci drag & drop
+<br>
 ![](Gifs/DragDrop.gif)
 #### Two-Way Binding
 - Vstupní prvek můžu namapovat na proměnou a uživatel může seznam přímo upravovat.
+<br>
 ![](Gifs/TwoWay.gif)
