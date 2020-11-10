@@ -15,14 +15,14 @@
 - <span style="color:red">**Všechno akce se seznamem mohou být Read-Write**</span>
 - **Pro demonstraci je vpravo dole průběžný výstup do konzole namapovaný na vstupní seznamy**
 #### Okamžité změny
-![](Gifs/changes.gif)
 - Všechno se po změně samo aktualizuje
+![](Gifs/changes.gif)
 #### Jednoduché řazení
-![](Gifs/reorder.gif)
 - Jednoduše můžeme měnit pořadí položek, opět read-write
+![](Gifs/reorder.gif)
 #### Drag & Drop
-![](Gifs/DragDrop.gif)
 - Protože se všechno aktualizuje samo, nemusím nic řešit když chci drag & drop
+![](Gifs/DragDrop.gif)
 #### Two-Way Binding
-![](Gifs/TwoWay.gif)
 - Vstupní prvek můžu namapovat na proměnou a uživatel může seznam přímo upravovat.
+![](Gifs/TwoWay.gif)
