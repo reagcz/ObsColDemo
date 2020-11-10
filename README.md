@@ -1,6 +1,7 @@
 # ObservableCollection\<T>
 ### Use case
-- ObservableCollection se používá v případě, že potřebuju nějaký seznam (přesněji Collection\<T>) zobrazit v uživatelském prostředí
+- ObservableCollection se používá v případě, že potřebuju nějaký seznam zobrazit v uživatelském prostředí
+- Pod kapotou se jedná o Collection\<T>
 ### OC\<T> vs. Collection\<T>
 - ObservableCollection\<T> implementuje interfacy INotifyCollectionChanged a INotifyPropertyChanged.
 - Díky tomu se změny v seznamu projeví v uživatelském prostředí **okamžitě**, **rychle** a **levně**
