@@ -12,7 +12,7 @@
 - **Přesný postup se liší podle frameworku (V tomhle repu je WPF i UWP)**, ale princip je stejný
 
 ### Užitečnost
-- <span style="color:red">**Všechno akce se seznamem mohou být Read-Write**</span>
+- <span style="color:red">**Všechny akce se seznamem mohou být Read-Write**</span>
 - **Pro demonstraci je vpravo dole průběžný výstup do konzole namapovaný na vstupní seznamy**
 #### Okamžité změny
 - Všechno se po změně samo aktualizuje
