@@ -23,7 +23,6 @@
             <ColumnDefinition Width="*"></ColumnDefinition>
             <ColumnDefinition Width="*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <ListView Width="auto" AllowDrop="True" DragOver="ListView_OnDragOver" DragItemsStarting="ListView_OnDragItemsStarting" Drop="ListView_OnDrop" CanDragItems="True" CanDrag="True" CanReorderItems="True" ReorderMode="Enabled" ItemsSource="{x:Bind ViewModel.Data1}" ItemTemplate="{StaticResource NumberTemplate}" Grid.Column="0"></ListView>
         <ListView Width="auto" AllowDrop="True" DragOver="ListView_OnDragOver" DragItemsStarting="ListView_OnDragItemsStarting" Drop="ListView_OnDrop" CanDragItems="True" CanDrag="True" CanReorderItems="True" ReorderMode="Enabled" ItemsSource="{x:Bind ViewModel.Data2}" ItemTemplate="{StaticResource NumberTemplate}" Grid.Column="1"></ListView>
         <Button Style="{StaticResource ButtonRevealStyle}" HorizontalAlignment="Right" Margin="0,0,-40,12" VerticalAlignment="Bottom" Width="80" Height="40" Content="Console" Click="ButtonBase_OnClick"></Button>
     </Grid>
