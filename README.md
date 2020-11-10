@@ -17,17 +17,20 @@
 - **Pro demonstraci je vpravo dole průběžný výstup do konzole namapovaný na vstupní seznamy**
 #### Okamžité změny
 - Všechno se po změně samo aktualizuje
-<br>
+
 ![](Gifs/changes.gif)
 #### Jednoduché řazení
 - Jednoduše můžeme měnit pořadí položek, opět read-write
-<br>
+
+
 ![](Gifs/reorder.gif)
 #### Drag & Drop
 - Protože se všechno aktualizuje samo, nemusím nic řešit když chci drag & drop
-<br>
+
+
 ![](Gifs/DragDrop.gif)
 #### Two-Way Binding
 - Vstupní prvek můžu namapovat na proměnou a uživatel může seznam přímo upravovat.
-<br>
+
+
 ![](Gifs/TwoWay.gif)
